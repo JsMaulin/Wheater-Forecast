@@ -1,0 +1,150 @@
+*{
+    color: white;
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 39px;
+    background-color: rgba(0, 0, 0, 0.144);
+    border: 1px solid white;
+    border-radius: 20px;
+    opacity: 1.0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1.0s;
+    box-shadow: rgba(0, 0, 0, 0.842) 30px 30px 30px -10px;
+}
+
+h1:hover{
+    transform: scale(1.06);
+}
+
+body{
+    color: rgb(0, 0, 0);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-image: url(img/bg.jpg);
+    /*background-image: url("https://source.unsplash.com/1600x900/?new-york");*/
+    display: flex;
+    justify-content: center; /*alinha os itens no centro da tela, eixo horizontal*/
+    align-items: center; /*Alinha os itens no centro da tela, eixo vertical*/
+}
+
+
+.big-box{
+    background-color: rgba(0, 0, 0, 0.52);
+    backdrop-filter: blur(6px);
+    box-shadow: rgba(0, 0, 0, 0.842) 30px 30px 30px -10px;
+    text-shadow: rgba(0, 0, 0, 0.76) 10px 10px 10px;
+    border: 3px solid;
+    border-color: rgba(255, 255, 255, 0.836);
+    border-radius: 40px;
+    padding: 23px;
+    width: 650px;
+    height: 500px;
+    transition: transform 0.7s;
+}
+
+.big-box:hover{
+    transform: scale(1.08);
+}
+
+.input-city{
+    text-shadow: 3px;
+    color: rgba(0, 0, 0, 0.849);
+    font-weight: 300;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.733);
+    border-radius: 18px;
+    padding: 5px;
+    outline: none;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.24), rgba(190, 190, 190, 0.596));
+    backdrop-filter: blur(10px);
+    width: calc(100% - 55px);
+    transition: transform 0.6s;
+    box-shadow: rgba(0, 0, 0, 0.842) 30px 30px 30px -10px;
+    text-shadow: rgba(0, 0, 0, 0.192) 10px 10px 10px;
+}
+
+.input-city:hover{
+    transform: scale(1.02);
+}
+
+.button-search{
+    border: 2px solid;
+    border-color: rgba(0, 0, 0, 0.788);
+    outline: none;
+    padding: 10px;
+    border-radius: 100px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+    float: right;
+    transition: transform 0.6s;
+    box-shadow: rgba(0, 0, 0, 0.842) 30px 30px 30px -10px;
+}
+
+.button-search:hover{
+    transform: scale(1.20);
+}
+
+.img-search{
+    width: 22px;
+    
+}
+
+.medium-box{
+    margin: 30px;
+}
+
+.city{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 300;
+    text-shadow: rgba(0, 0, 0, 0.76) 10px 10px 10px;
+}
+
+.temp{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: 300;
+    text-shadow: rgba(0, 0, 0, 0.76) 10px 10px 10px;
+}
+
+.small-box{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.texto-previsao{
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    font-weight: 300;
+    text-transform: capitalize;
+    text-shadow: rgba(0, 0, 0, 0.76) 10px 10px 10px;
+}
+
+.umidade{
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.img-previsao{
+    width: 50px;
+    height: 50px;
+}
+
+.feel-like{
+    font-weight: 300;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheater-Forecast | Julio Santos</title>
+    <link rel="shortcut icon" href="img/iconfavs.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+
+    <div class="big-box">
+        <h1>Previsão do Tempo 🌩</h1>
+        <br>
+        <input class="input-city" placeholder="Digite o nome da cidade" type="text">
+        <button class="button-search" onclick="cliqueiNoBotao()">
+            <img class="img-search" src="https://www.svgrepo.com/show/494890/search.svg" alt="lupa-busca">
+        </button>
+        <div class="medium-box">
+            <h2 class="city"></h2>
+
+            <p class="temp"></p>
+
+            <div class="small-box">
+                <img class="img-previsao" src="https://openweathermap.org/img/wn/04n.png" alt="Icone-info-do-Tempo">
+                <p class="texto-previsao"></p>
+            </div>
+
+            <p class="umidade"><b></b></p>
+
+            <p class="feel-like"></p>
+        </div>
+    </div>
+</body>
+
+</html>
